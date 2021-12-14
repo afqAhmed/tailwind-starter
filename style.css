@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  max-width: 800px;
+  margin-top: 10px;
+  grid-gap: 10px;
+  
+}
+.box {
+  text-align: center;
+  height: 100px;
+  background-color: #0e97ce;
+  
+}
